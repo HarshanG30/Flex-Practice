@@ -1,0 +1,26 @@
+.container{
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-evenly;
+    align-items:center;
+}
+.object{
+    width:200px;
+    height:200px;
+    display:flex;
+    text-align:center;
+    justify-content:center;
+    align-items:center;
+}
+.object-one{
+    background-color:red;
+}
+.object-two{
+    background-color:yellow;
+    order:-1;
+}
+.object-three{
+    background-color:blue;
+    align-self:flex-end;
+}
